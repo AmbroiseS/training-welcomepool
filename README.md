@@ -1,32 +1,24 @@
 The welcome project
 ===================
 
-The goal of this mini-project is to refresh your **Java / JEE** skills in a 4 day rush team-effort.  
-This project requires both **Backend** (Java/JEE), **SQL**, **Ops** & **Frontend** skills (JSP, HTML, JavaScript).  
-The 4-day project has to be released in **production** on a dedicated server, and **demonstrated** by the team in a full-house presentation.
+The goal of this mini-project is to create your own web application using Spring Boot.  
+This project requires both **Backend** (Java), **SQL**, **Ops** & **Frontend** skills (CSS, HTML, JavaScript).  
 
 ![Interface](/../master/screen.png?raw=true "Admin Panel Interface")
 
 # Pool Conditions
 You will develop your project as a **team**, with minimum Agile management (we recommend the Kanban method).  
-**One** git repository will be given to the team and shall be used properly. The workflow details are left to the team's appreciation.
 
-Every day, the team will be able to attend a retrospective at the time of their choice, in presence of a coach, to discuss the following matters:
- * The challenges encountered the day before
- * The current tasks, the remaining tasks
- * The global workflow efficiency
- 
 In terms of team work, you are free to try anything you want.  
-Do not hesitate to try out eXtreme Programming concepts such as Pair Programming, Code Reviews, Test-Driven Development, and take the time to plan important parts of your project in common.
+Do not hesitate to try out eXtreme Programming concepts such as Pair Programming and take the time to plan important parts of your project in common.
 
 In terms of delivery, these are the requirements:
    * Clean & commented code
-   * Use of the whole JEE stack is allowed (JSP, Servlet, JSTL, JSF?, JPA, JTA, EJB, ...)
-   * Use of EclipseLink ORM is allowed
-   * Use of spring is not allowed
+   * Use of Spring Boot
+   * Clean architecture (Layers, DI)
 
 # The Project    
-The project consists of a JEE webapp.  
+The project consists of a Spring Boot webapp.  
 Your goal is to create an administration panel to manage a schedule of code reviews and milestones.
 In particular, the following items will be implemented:
   * Create a new member: name, email, birthdate, class
@@ -46,26 +38,20 @@ We provide you the front pages but you'll need to edit it.
 First, install a local **MySQL** server & a SQL administration tool (MySQL Workbench or PhpMyAdmin).
 
 ### Your IDE
-For this exercise, you will have to use Eclipse.  
-Install the latest **Wildfly** application server. Search & read the docs to know how to do :)
+For this exercise, you will have to use IntelliJ.  
 
 ### Git repository
-A new repository will be provided, with owner rights.  
+Create a repository on Github or Gitlab (Don't forget to set permissions to public for the code review). 
 Everyone must be able to push code on the repository. The important fact here is to **create your orwn team workflow**.
 
 ## Project Architecture
 Take your time and brainstorm in group to create a clean architecture for the project.
-We advise to use the EclipseLink ORM for data persistence in your project, through JPA.
 Create the main architecture for your web app.
 
 ## Integration
 Download the provided web architecture in the **resources** directory.
 Integrate it in your project.
 Use a nice calendar widget in the **code review** creation form.
-
-## Release & Demo
- * For your release, we will provide you with a public server instance. You will need to release your code in production before the demonstration, along with the source code.
- * Your demo must be following a client perspective. You are making the demonstration for the project they have asked you to deliver. Two parts can be prepared. The first part refers mostly to showing what you have done, and how you made things. The second part explains your technical choices, and your roadmap for further improvements.
 
 ### Provided content
 We provided you with some content to help you bootstrap your work.
